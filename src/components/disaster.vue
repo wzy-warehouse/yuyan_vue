@@ -13,36 +13,29 @@
           <a href="/disaster1" target="_blank">
             <img src="/images/disaster/disaster-1-cover.png" alt>
           </a>
-          <p class="map-info">西藏定日6.8级地震应急监测评估</p>
-          <p class="time">2025-01-17</p>
+          <p class="map-info">1·17 西藏定日6.8级地震应急监测评估</p>
+          <p class="time">2025-01-18 10:22</p>
         </li>
         <li class="map">
           <a href="/disaster2" target="_blank">
             <img src="/images/disaster/disaster-2-cover.png" alt>
           </a>
-          <p class="map-info">四川筠连山体滑坡应急监测评估</p>
-          <p class="time">2025-02-10</p>
+          <p class="map-info">2·10 四川筠连山体滑坡应急监测评估</p>
+          <p class="time">2025-02-11 11:20</p>
         </li>
         <li class="map">
           <a href="/disaster3" target="_blank">
             <img src="/images/disaster/disaster-3-cover.png" alt>
           </a>
-          <p class="map-info">云南福贡县亚目水电站滑坡应急监测</p>
-          <p class="time">2025-03-22</p>
+          <p class="map-info">3·22 云南福贡县亚目水电站滑坡应急监测</p>
+          <p class="time">2025-03-22 15:43</p>
         </li>
         <li class="map">
           <a href="/disaster4" target="_blank">
             <img src="/images/disaster/disaster-4-cover.png" alt>
           </a>
-          <p class="map-info">贵州大方县果瓦乡山体滑坡无人机应急监测</p>
-          <p class="time">2025-05-26</p>
-        </li>
-        <li class="map">
-          <a href="/disaster5" target="_blank">
-            <img src="/images/disaster/disaster-4-cover.png" alt>
-          </a>
-          <p class="map-info">山东济南市莱芜区大王庄镇山洪无人机应急监测</p>
-          <p class="time">2025-07-31</p>
+          <p class="map-info">5·26 贵州大方县果瓦乡山体滑坡应急监测</p>
+          <p class="time">2025-05-26 18:19</p>
         </li>
       </ul>
       <div class="disaster-more">查看更多</div>
@@ -92,11 +85,13 @@
 
 .disaster-map ul{
   overflow: hidden;
+  list-style: none; /* 添加这行，移除列表标记 */
+  padding-left: 0;  /* 添加这行，移除默认左边距 */
 }
 
 .disaster-map .map{
   float: left;
-  width: 18%;
+  width: 23%;
   height: 280px;
   margin-left: 1%;
   margin-bottom: 15px;
@@ -106,6 +101,7 @@
   display: block;
   width: 100%;
   height: 200px;
+
 }
 
 .disaster-map .map a>img{
@@ -118,6 +114,7 @@
   color: #333;
   margin-bottom: 0;
   margin-top: 5px;
+  font-weight: bold; /* 添加这行 */
 }
 
 .disaster-map .map .time{
