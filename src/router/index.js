@@ -7,9 +7,6 @@ export const router = createRouter({
             path: '/notice',
             name: 'notice',
             component: () => import('@/views/Notice.vue'),
-            meta: {
-                noLoginRequired: true,
-            },
         },
     ],
 })

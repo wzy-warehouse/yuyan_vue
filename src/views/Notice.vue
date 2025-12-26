@@ -5,7 +5,6 @@
         “雨燕应急-<br>
         重大灾害无人机应急合作机制”<br>
         成员招募公告
-        <el-icon class="close-icon" @click="handleClose"><CloseBold /></el-icon>
       </div>
 
       <div class="notice-content">
@@ -34,14 +33,6 @@
 </template>
 
 <script setup>
-import { ElIcon } from 'element-plus'
-import { CloseBold } from '@element-plus/icons-vue'
-import { useRouter } from 'vue-router'
-
-const router = useRouter()
-const handleClose = () => {
-    router.push('/')
-}
 </script>
 
 <style scoped>
