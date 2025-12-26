@@ -33,12 +33,15 @@ const routes = [
     path: '/dynamic5',
     name: 'Dynamic5',
     component: () => import('@/views/dynamic/dynamic5.vue')
-  }
+  },
+    {
+        path: '/notice',
+        name: 'notice',
+        component: () => import('@/views/Notice.vue'),
+    },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
-
-export default router
