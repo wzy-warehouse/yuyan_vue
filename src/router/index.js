@@ -1,8 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-// 导入组件
-import App from '@/App.vue'
-
 const routes = [
   {
     path: '/',
@@ -34,14 +31,13 @@ const routes = [
     name: 'Dynamic5',
     component: () => import('@/views/dynamic/dynamic5.vue')
   },
-    {
-        path: '/notice',
-        name: 'notice',
-        component: () => import('@/views/Notice.vue'),
-    },
+  {
+    path: '/notice',
+    name: 'notice',
+    component: () => import('@/views/Notice.vue'),
+  },
 ]
-
-const router = createRouter({
+export const router = createRouter({
   history: createWebHistory(),
   routes
 })
