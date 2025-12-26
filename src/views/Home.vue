@@ -63,8 +63,8 @@ import AnnouncementComponent from "@/components/announcement.vue";
 
 .disaster-container {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto 32px auto;
-  padding: 40px 0;
 }
 
 .technical-container {

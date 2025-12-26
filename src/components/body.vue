@@ -91,10 +91,6 @@ const bodyStyle = computed(() => {
   text-indent: 2em;
 }
 
-.document-body :deep(p:first-of-type) {
-  text-indent: 0;
-}
-
 .document-body :deep(ul),
 .document-body :deep(ol) {
   margin: 15px 0;
