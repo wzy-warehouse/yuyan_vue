@@ -36,6 +36,31 @@ const routes = [
     name: 'notice',
     component: () => import('@/views/Notice.vue'),
   },
+  {
+    path: '/disaster1',
+    name: 'Disaster1',
+    component: () => import('@/views/disaster/disaster1.vue')
+  },
+  {
+    path: '/disaster2',
+    name: 'Disaster2',
+    component: () => import('@/views/disaster/disaster2.vue')
+  },
+  {
+    path: '/disaster3',
+    name: 'Disaster3',
+    component: () => import('@/views/disaster/disaster3.vue')
+  },
+  {
+    path: '/disaster4',
+    name: 'Disaster4',
+    component: () => import('@/views/disaster/disaster4.vue')
+  },
+  {
+    path: '/disaster5',
+    name: 'Disaster5',
+    component: () => import('@/views/disaster/disaster5.vue')
+  },
 ]
 export const router = createRouter({
   history: createWebHistory(),
