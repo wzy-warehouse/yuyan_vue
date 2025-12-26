@@ -80,7 +80,6 @@ import AnnouncementComponent from "@/components/announcement.vue";
 
 .team-search-container {
   width: 100%;
-  max-width: 378px;
 }
 
 /* 容器分割样式 */
