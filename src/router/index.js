@@ -7,7 +7,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: App
+    component: () => import('@/views/home.vue')
   },
   {
     path: '/dynamic1',

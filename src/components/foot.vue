@@ -24,11 +24,10 @@
 <style scoped>
 .footer {
   width: 100%;
-  min-width: 1200px;
 }
 
 .footer-info {
-  width: 1200px;
+  width: 60%;
   text-align: center;
   margin: 0 auto;
   padding: 40px 120px 60px;

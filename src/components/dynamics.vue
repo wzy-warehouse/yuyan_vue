@@ -10,19 +10,19 @@
     <div class="dynamics-list">
       <ul>
         <li class="dynamics-item">
-          <router-link to="/dynamic1">20250109-"重大灾害无人机应急合作机制"业务交流和技术研讨会在哈尔滨召开</router-link>
+          <a href="/dynamic1" target="_blank">20250109-"重大灾害无人机应急合作机制"业务交流和技术研讨会在哈尔滨召开</a>
         </li>
         <li class="dynamics-item">
-          <router-link to="/dynamic2">20250307-机制动态："重大灾害无人机应急合作机制"2025年考核和增补工作圆满完成</router-link>
+          <a href="/dynamic2" target="_blank">20250307-机制动态："重大灾害无人机应急合作机制"2025年考核和增补工作圆满完成</a>
         </li>
         <li class="dynamics-item">
-          <router-link to="/dynamic3">20250326-机制动态：聚青年英才之力 筑无人机应急防线</router-link>
+          <a href="/dynamic3" target="_blank">20250326-机制动态：聚青年英才之力 筑无人机应急防线</a>
         </li>
         <li class="dynamics-item">
-          <router-link to="/dynamic4">20250426-机制动态："雨燕应急"2025首期线上培训圆满完成，684名无人机应急尖兵云端集结</router-link>
+          <a href="/dynamic4" target="_blank">20250426-机制动态："雨燕应急"2025首期线上培训圆满完成，684名无人机应急尖兵云端集结</a>
         </li>
         <li class="dynamics-item">
-          <router-link to="/dynamic5">20250530-业务交流：国家减灾中心派员参加2025第九届世界无人机大会暨UASE无人机展</router-link>
+          <a href="/dynamic5" target="_blank">20250530-业务交流：国家减灾中心派员参加2025第九届世界无人机大会暨UASE无人机展</a>
         </li>
       </ul>
     </div>
@@ -30,6 +30,7 @@
 </template>
 
 <script setup>
+
 </script>
 
 <style scoped>
