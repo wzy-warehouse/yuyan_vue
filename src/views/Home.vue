@@ -1,6 +1,11 @@
 <template>
   <div class="index">
-    <div class="banner"></div>
+    <div class="banner">
+      <div class="banner-title">
+        <div class="title-line1">雨燕应急</div>
+        <div class="title-line2">重大灾害无人机应急合作机制</div>
+      </div>
+    </div>
     <div class="middle-container">
       <AnnouncementComponent />
       <div class="container-split">
@@ -43,6 +48,36 @@ import AnnouncementComponent from "@/components/announcement.vue";
   margin-bottom: 80px;
   background: url("@/assets/images/banner.png") center top no-repeat;
   background-size: 100% 100%;
+  position: relative;
+}
+
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-family: "Microsoft Yahei", STHeiti, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  width: 100%;
+}
+
+
+.title-line1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.title-line2 {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .middle-container {
