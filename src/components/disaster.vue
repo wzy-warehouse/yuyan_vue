@@ -110,7 +110,7 @@
 }
 
 .disaster-map .map .map-info{
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
   margin-bottom: 0;
   margin-top: 5px;
