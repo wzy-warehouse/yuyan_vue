@@ -27,9 +27,9 @@
           <span>搜索结果（共 {{ searchResult.length }} 条）</span>
         </div>
         <div class="result-content">
-          <div 
-            class="team-item" 
-            v-for="(item, index) in searchResult" 
+          <div
+            class="team-item"
+            v-for="(item, index) in searchResult"
             :key="index"
           >
             <span class="team-name">{{ item.name }}</span>
@@ -45,9 +45,9 @@
 
       <!-- 动态滚动列表（搜索框为空时显示） -->
       <div v-else class="scroll-list">
-        <div 
-          class="team-item" 
-          v-for="(item, index) in allTeams" 
+        <div
+          class="team-item"
+          v-for="(item, index) in allTeams"
           :key="index"
         >
           <span class="team-name">{{ item.name }}</span>
@@ -363,8 +363,8 @@ const handleSearch = () => {
   // 模糊匹配：不区分大小写，匹配单位名称或所属地区
   const key = searchKey.value.trim().toLowerCase();
   searchResult.value = allTeams.value.filter(
-    item => 
-      item.name.toLowerCase().includes(key) || 
+    item =>
+      item.name.toLowerCase().includes(key) ||
       item.region.toLowerCase().includes(key)
   );
 };
@@ -373,7 +373,7 @@ const handleSearch = () => {
 const startScroll = () => {
   // 清除已有定时器，避免重复
   if (scrollInterval.value) clearInterval(scrollInterval.value);
-  
+
   const listEl = document.querySelector('.scroll-list');
   if (!listEl) return;
 
@@ -426,7 +426,7 @@ watch(searchKey, (newVal) => {
 .team-search-container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: -19px auto;
   padding: 20px;
   box-sizing: border-box;
 }

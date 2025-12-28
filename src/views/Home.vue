@@ -110,7 +110,7 @@ import AnnouncementComponent from "@/components/announcement.vue";
 
 .introduction-container {
   width: 100%;
-  max-width: 378px;
+  max-width: 580px;
 }
 
 .team-search-container {
