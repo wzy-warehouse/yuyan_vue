@@ -37,6 +37,7 @@ const errorHandler = (err) => {
   padding: 0 !important;
 }
 :deep(.docx) {
+  width: 98% !important;
   box-shadow: none !important;
 }
 
