@@ -56,7 +56,7 @@
 }
 .text{
   width: 530px;
-  height: 260px;
+  height: 400px;
   background: linear-gradient(180deg, #EDF5FF 0%, #FFFFFF 69%, #FFFFFF 100%);
   box-shadow: 0px 10px 20px 0px rgba(121, 152, 201, 0.15);
   border-radius: 8px;
@@ -69,7 +69,7 @@
 .text-content{
   font-size: 16px;
   font-weight: bold;
-  line-height: 28px;
+  line-height: 2.5em;
 }
 .text-data{
   font-size: 14px;
