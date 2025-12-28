@@ -27,14 +27,14 @@
           <a href="/disaster3" target="_blank">
             <img src="/images/disaster/disaster-3-cover.png" alt>
           </a>
-          <p class="map-info">3·22 云南福贡县亚目水电站滑坡应急监测</p>
+          <p class="map-info">3·22 云南福贡县亚目水电站滑坡应急监测评估</p>
           <p class="time">2025-03-22 15:43</p>
         </li>
         <li class="map">
           <a href="/disaster4" target="_blank">
             <img src="/images/disaster/disaster-4-cover.png" alt>
           </a>
-          <p class="map-info">5·26 贵州大方县果瓦乡山体滑坡应急监测</p>
+          <p class="map-info">5·26 贵州大方县果瓦乡山体滑坡应急监测评估</p>
           <p class="time">2025-05-26 18:19</p>
         </li>
       </ul>
